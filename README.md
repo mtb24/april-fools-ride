@@ -1,4 +1,4 @@
-#April Fools Ride (AFR)
+# April Fools Ride (AFR)
 
 :bike:
 Once a year, a mountain bike event takes place where an app is used to communicate spontaneous events among the participants (dangers, info, etc).
