@@ -1,8 +1,9 @@
 #April Fools Ride (AFR)
 
-Once a year, a mountain bike event takes place where this app is used to communicate spontaneous events during the ride (dangers, accidents, etc).
+:bike:
+Once a year, a mountain bike event takes place where an app is used to communicate spontaneous events among the participants (dangers, info, etc).
 
-The initial version of this app was Rails and Twilio.
+The initial version of this app was slapped together with [Rails and Twilio](https://github.com/mtb24/AFRmessages).
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
