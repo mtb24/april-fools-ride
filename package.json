@@ -1,6 +1,10 @@
 {
   "name": "afr2",
   "version": "0.1.0",
+  "author": {
+    "name": "Ken Downey",
+    "url": "http://github.com/mtb24"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
