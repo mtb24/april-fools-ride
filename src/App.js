@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import logo from './assets/icons/Cog.jpg';
 import './App.css';
+import Header from './header.js';
+import Nav from './nav.js';
+import Footer from './footer.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">April Fools Ride</h1>
-        </header>
+        <Header/>
+        <Nav/>
         <p className="App-intro">
           Yay, We're live!
         </p>
-        <footer class="footer"></footer>
+        <Footer/>
       </div>
     );
   }
