@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>April Fools Ride</title>
+  </head>
+  <body>
+    <noscript>
+      Yo, JavaScript is required to run this app!
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-firestore.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-messaging.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-storage.js"></script> -->
+    
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCE73QPIe6x9UTQUi0r92SpuBI9pEypanA",
+        authDomain: "april-fools-ride-2.firebaseapp.com",
+        databaseURL: "https://april-fools-ride-2.firebaseio.com",
+        projectId: "april-fools-ride-2",
+        storageBucket: "april-fools-ride-2.appspot.com",
+        messagingSenderId: "556326819275"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </body>
+</html>
