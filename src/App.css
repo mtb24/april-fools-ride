@@ -1,21 +1,28 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  background-color: darkseagreen;
 }
 
 .App-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 6vh;
   background-color: #fff;
-  height: 150px;
+  height: 7vh;
   padding: 20px;
   color: black;
 }
 
+.App-logo {
+  grid-area: 1 / 1 / 2 / 2;
+  animation: App-logo-spin infinite 20s linear;
+  height: 7vh;
+}
+
 .App-title {
+  grid-area: 1 / 2 / 2 / 6;
   font-size: 1.5em;
+  margin: auto 0 auto -60px;
 }
 
 .App-intro {
