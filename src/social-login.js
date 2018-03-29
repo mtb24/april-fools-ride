@@ -1,4 +1,4 @@
-
+const firebase = window.firebase;
 // Use the default browser language preference instead of explicitly setting one
 firebase.auth().useDeviceLanguage();
 
@@ -25,6 +25,8 @@ export function facebookLogin() {
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
         // ...
-        console.error("Facebook login error: ",error);
+        console.error("Facebook login error: ",errorCode);
+        console.log("FB error message: ",errorMessage);
+        console.log("FB error user credential: ", credential, email);
     });
 }
