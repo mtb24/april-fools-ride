@@ -1,13 +1,3 @@
-<!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,25 +15,44 @@
 
     <div id="root"></div>
 
-    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-firestore.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-messaging.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-storage.js"></script> -->
-    
     <script>
       // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCE73QPIe6x9UTQUi0r92SpuBI9pEypanA",
-        authDomain: "april-fools-ride-2.firebaseapp.com",
-        databaseURL: "https://april-fools-ride-2.firebaseio.com",
-        projectId: "april-fools-ride-2",
-        storageBucket: "april-fools-ride-2.appspot.com",
-        messagingSenderId: "556326819275"
-      };
-      firebase.initializeApp(config);
+      // var config = {
+      //   apiKey: "AIzaSyCE73QPIe6x9UTQUi0r92SpuBI9pEypanA",
+      //   authDomain: "april-fools-ride-2.firebaseapp.com",
+      //   databaseURL: "https://april-fools-ride-2.firebaseio.com",
+      //   projectId: "april-fools-ride-2",
+      //   storageBucket: "april-fools-ride-2.appspot.com",
+      //   messagingSenderId: "556326819275"
+      // };
+      // firebase.initializeApp(config);
+    </script>
+
+    <script>
+      // window.fbAsyncInit = function() {
+      //   FB.init({
+      //     appId      : '{your-app-id}',
+      //     cookie     : true,
+      //     xfbml      : true,
+      //     version    : '{latest-api-version}'
+      //   });
+      //   FB.AppEvents.logPageView();
+      // };
+
+      // (function(d, s, id){
+      //   var js, fjs = d.getElementsByTagName(s)[0];
+      //   if (d.getElementById(id)) {return;}
+      //   js = d.createElement(s); js.id = id;
+      //   js.src = "https://connect.facebook.net/en_US/sdk.js";
+      //   fjs.parentNode.insertBefore(js, fjs);
+      // }(document, 'script', 'facebook-jssdk'));
     </script>
   </body>
 </html>
